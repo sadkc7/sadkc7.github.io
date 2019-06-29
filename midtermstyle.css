@@ -146,7 +146,7 @@ image{
 }
 @media only screen and (max-width: 1050px){
 	header h1{height:80px;}
-	header nav{display:table-cell;}
+	header nav{display:inline;}
 	aside {display:inline;}
 	section{border-radius:10px}
 }
