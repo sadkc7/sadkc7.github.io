@@ -1,0 +1,152 @@
+* {margin:0; padding:0;}
+body {
+	font-family:helvetica, arial, sans-serif;
+	background:#dcd9c0;
+	}
+#wrapper {
+	min-width:760px; max-width:1100px; margin:0 auto; border:0; overflow:hidden;
+	}
+header {
+	background:#000;
+	width:1050px;
+	padding:15px 15px; 
+	position: relative;
+	display: table;
+	margin:10px;
+	border: 20px;
+	border-radius:10px;
+	box-shadow: 4px 4px 5px 8px #aaa;
+	}
+header h1 {
+	font-family:'Droid Sans';
+	font-weight:400;
+	font-size:4em;
+	display:table-cell;
+	letter-spacing:-.05em;
+	color:#fff;
+	padding:15px 15px; 
+	}
+nav {
+	display:table-cell;
+	width:300px;
+	background:#000;
+	display:table-cell;
+	padding:15px;
+	overflow: hidden;
+	}
+nav li {
+	list-style-type:none;
+	display:inline;
+	position:relative;
+	float:right;
+	}
+nav a {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:.85em;
+	color:#fff;
+	display:inline;
+	padding:1em;
+	}
+article {
+	display:table-cell;
+	background:#fff;
+	padding:20px 30px;
+	margin:10px;
+	border: 20px;
+	border-radius:10px;
+	box-shadow: 4px 4px 5px 8px #aaa;
+	}
+article blockquote{
+	position:center;
+	padding:15px;
+}
+article h1 {
+	font-family:'Droid Sans';
+	font-weight:700;
+	font-size:1.5em;
+	letter-spacing:-.05em;
+	color:#616161;
+	padding:15px;
+	}
+article h2 {
+	font-family:'Droid Sans';
+	font-weight:700;
+	font-size:1.25em;
+	letter-spacing:-.05em;
+	color:#616161;
+	text-decoration:overline;
+	margin:10px 0 0 0;
+	padding:15px;
+	}
+article h3{
+	padding:10px;
+}
+article p {
+	font-family:'Open Sans Condensed';
+	font-weight:300;
+	font-size:1em;
+	color:#000;
+	padding:15px;
+	}
+aside {
+	display:table-cell;
+	width:210px;
+	background:#F5DEB3;
+	padding:15px;
+	margin:10px;
+	border: 20px;
+	border-radius:10px;
+	box-shadow: 4px 4px 5px 8px #aaa;
+	}
+aside h3 {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	letter-spacing:-.075em;
+	color:#000;
+	padding:5px;
+	}
+aside p {
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:.85em;
+	line-height:1.2em;
+	color:#000;
+	padding:15px;
+	padding-top:5px;
+	}
+footer {
+	clear:both;
+	background:#000;
+	text-align:center;
+	padding:15px;
+	margin:10px;
+	border: 20px;
+	border-radius:10px;
+	box-shadow: 4px 4px 5px 8px #aaa;
+	}
+footer p {
+	font-family:'Open Sans';
+	font-weight:700;
+	font-size:.65em;
+	color:#fff;
+	padding:15px;
+	border:20px;
+	}
+footer a {
+	font-family:'Open Sans';
+	font-weight:700italic;
+	font-size:1em;
+	color:#ffed53;
+	text-decoration:none;
+	padding:15px;
+	}
+image{
+	padding:10px;
+}
+@media only screen and (max-width: 1050px){
+	header h1{height:80px;}
+	header nav{display:table-cell;}
+	aside {display:inline;}
+	section{border-radius:10px}
+}
