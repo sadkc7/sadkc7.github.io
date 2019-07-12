@@ -4,10 +4,10 @@ body {
 	background-color:#FFFFFF;
 	}
 #wrapper {
-	min-width:760px; max-width:1100px; margin:0 auto; border:0px solid; overflow:hidden;
+	min-width:20%; max-width: 90%; margin:0 auto; border:0px solid; overflow:hidden;
 	}
 header {
-	width:1100px;
+	width:100%;
 	background:#f00;
 	background-color:#FF0001;
 	padding:20px;
@@ -20,9 +20,16 @@ header h1 {
 	color:#FFFFFF;
 	padding:0px; 
 	}
+img {
+	float:left;
+	}
+.floatleft {
+     float:left;
+     padding-right:10px;
+ 	}
 nav {
 	display:table-cell;
-	width:250px;
+	width: 15%;
 	background:#FF0001;
 	padding:10px;
 	background-color:#FF0001;
@@ -41,7 +48,7 @@ nav a {
 	}
 article {
 	display:table-cell;
-	width:500px;
+	width:67%;
 	background:#FFFFFF;
 	padding:10px 20px;
 	background-color:#fff;
@@ -73,7 +80,7 @@ article p {
 	}
 aside {
 	display:table-cell;
-	width:250px;
+	width:25%;
 	background:#FF0001;
 	padding:10px;
 	background-color:#FF0001;
@@ -95,6 +102,7 @@ aside p {
 	background-color:#FF0001
 	}
 footer {
+	width:100%;
 	clear:both;
 	background:#000;
 	text-align:center;
