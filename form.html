@@ -37,17 +37,16 @@
        	
         <section>
          	<h1>Message Mrs. Smith</h1>
-
-     <FORM NAME="myForm" onSubmit="return mailMe(this.form)" >
-            <h3><font size=6pt> Message Mrs. Smith</font></h3>
-            </br>
-            Name <input type="text" name=“name”><br>
-            <br>
-            Message <input type="text" name=“message”><br>
-            <br>
-            <INPUT TYPE="submit"><br>
-
-    </FORM>
+            <form action="mailto:shayes@cpsk12.org" method="post" enctype="text/plain">
+            Name:<br>
+              <input type="text" name="name"><br>
+              E-mail:<br>
+              <input type="text" name="mail"><br>
+              Comment:<br>
+              <input type="text" name="comment" size="100"><br><br>
+              <input type="submit" value="Send">
+              <input type="reset" value="Reset">
+            </form>
 
         </section>
 
