@@ -9,7 +9,7 @@ body {
 header {
 	width:100%;
 	background:#f00;
-	background-color:#FF0001;
+	background-color:#a20000;
 	padding:20px;
 	margin:10px;
 	}
@@ -30,21 +30,21 @@ img {
 nav {
 	display:table-cell;
 	width: 15%;
-	background:#FF0001;
+	background:#a20000;
 	padding:10px;
-	background-color:#FF0001;
+	background-color:#a20000;
 	margin:10px;
 	}
 nav li {
 	list-style-type:none;
-	background-color:#FF0001
+	background-color:#a20000
 	}
 nav a {
 	font-family:'futura';
 	font-weight:700;
 	font-size:.85em;
 	color:#FFFFFF;
-	background-color:#FF0001
+	background-color:#a20000
 	}
 article {
 	display:table-cell;
@@ -60,7 +60,7 @@ article h1 {
 	font-size:1.5em;
 	letter-spacing:-.05em;
 	color:#FFFFFF;
-	background-color:#FF0001;
+	background-color:#a20000;
 	}
 article h2 {
 	font-family:'futura';
@@ -81,9 +81,9 @@ article p {
 aside {
 	display:table-cell;
 	width:25%;
-	background:#FF0001;
+	background:#a20000;
 	padding:10px;
-	background-color:#FF0001;
+	background-color:#a20000;
 	margin:10px;
 	}
 aside h3 {
@@ -91,7 +91,7 @@ aside h3 {
 	font-weight:700;
 	letter-spacing:-.075em;
 	color:#FFFF;
-	background-color:#FF0001
+	background-color:#a20000
 	}
 aside p {
 	font-family:'futura';
@@ -99,7 +99,7 @@ aside p {
 	font-size:.85em;
 	line-height:1.2em;
 	color:#FFFFFF;
-	background-color:#FF0001
+	background-color:#a20000
 	}
 footer {
 	width:100%;
